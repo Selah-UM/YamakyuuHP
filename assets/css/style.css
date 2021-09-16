@@ -3,30 +3,6 @@
   margin: 0;
   padding: 0;
 }
-header{
-  position: fixed;
-  top: 0;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 6px 3%;
-  background-color: #348da9;
-}
-.headerInner{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.brand{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 30px;
-  color: #E8E5E5;
-}
 a{
   text-decoration: none;
 }
@@ -34,9 +10,38 @@ ul,li{
   list-style: none;
   margin: 0;
 }
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 6px 3%;
+}
+.headerInner{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.branch-p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 1;
+}
+.brand{
+  margin-top: 0;
+  padding: 0 40px 0 0;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 30px;
+  color: #E8E5E5;
+  background-color: #348da9;
+}
 .headNav{
   vertical-align: middle;
-  text-align: center;
+  align-items: flex-end;
   margin: 0 0 0 auto;
 }
 .headNav li{
@@ -47,11 +52,12 @@ ul,li{
 }
 .headNav a{
   display: block;
-  line-height: 2;
+  line-height: 2.5;
   color: #E8E5E5;
 }
 .navItem{
   position: relative;
+  background-color: #348da9;
 }
 .navItem a {
   display: block;
