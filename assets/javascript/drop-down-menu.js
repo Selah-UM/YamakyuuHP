@@ -1,11 +1,11 @@
 $(function() {
   $(".headerInner").css('align-items','flex-end');
-      // $("header").css('background-color','#348da9');
-      $(".headNav > li").mouseover(function(){
+      $("header").css('background-color','#348da8');
+  $(".headNav > li").mouseover(function(){
     new Promise((resolve) => {
       const item = this;
       $(".headerInner").css('align-items','');
-      // $("header").css('background-color','');
+      $("header").css('background-color','#348da8b0');
       resolve(item);
     }).then((item) => {
       $(item).find(".subMenu").show();
@@ -15,7 +15,7 @@ $(function() {
     new Promise((resolve) => {
       const item = this;
       $(".headerInner").css('align-items','flex-end');
-      // $("header").css('background-color','#348da9');
+      $("header").css('background-color','#348da8');
       resolve(item);
     }).then((item) => {
       $(item).find(".subMenu").hide();

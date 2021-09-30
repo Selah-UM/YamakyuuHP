@@ -23,7 +23,7 @@ header{
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
-  padding: 6px 0;
+  padding: 10px 0 1px 0;
 }
 .branch-p{
   margin-block-start: 0;
@@ -36,8 +36,7 @@ header{
   font-weight: bold;
   line-height: 1.5;
   font-size: 30px;
-  color: #E8E5E5;
-  background-color: #348da9;
+  color: #d3e5eb;
 }
 .headNav{
   vertical-align: middle;
@@ -53,26 +52,30 @@ header{
 .headNav a{
   display: block;
   line-height: 2.5;
-  color: #E8E5E5;
+  color: #d3e5eb;
 }
 .navItem{
   position: relative;
-  background-color: #348da9;
 }
 .navItem a {
   display: block;
   padding: 0;
   font-size: 18px;
 }
+.navItem a:hover{
+  background-color: #A6CDD9;
+  color: #348da8;
+}
 .subMenu{
   display: none;
 }
 .subMenu ul{
   margin: 0 0 0 auto;
-  background-color: #348da9;
 }
 .subMenu li{
   display: inline;
+  margin: 1px;
+  background-color: #348da8;
 }
 .subMenu a{
   display: block;
@@ -81,7 +84,7 @@ header{
 body{
   margin: 0;
   padding: 0;
-  background-color: rgb(245, 245, 245);
+  background-color: #d3e5eb;
 }
 
 
