@@ -47,7 +47,7 @@ header{
   float: left;
   text-align: center;
   vertical-align: middle;
-  width: 150px;
+  width: 120px;
 }
 .headNav a{
   display: block;
@@ -74,7 +74,7 @@ header{
 }
 .subMenu li{
   display: inline;
-  margin: 1px;
+  margin: 1px 0;
   background-color: #348da8;
 }
 .subMenu a{
@@ -85,6 +85,10 @@ body{
   margin: 0;
   padding: 0;
   background-color: #d3e5eb;
+}
+.panelArea{
+  width: 500px;
+  margin: auto;
 }
 
 
